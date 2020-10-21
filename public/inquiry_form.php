@@ -59,7 +59,7 @@ session_destroy();
     <input type="submit" value="送信確認">
   </p>
   </form>
-  <a href="inquiry.html">TOP画面に戻る</a>
+  <a href="index.html">TOP画面に戻る</a>
 </body>
 </html>
 
