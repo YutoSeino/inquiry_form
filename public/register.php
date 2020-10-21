@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
   <p>送信が完了しました</p>
-  <a href="inquiry.html">TOPへ</a>
+  <a href="index.html">TOPへ</a>
   <a href="inquiry_list.php">問い合わせリストへ</a>
 </body>
 </html>
