@@ -9,7 +9,7 @@ class InquiryLogic
    * @param array $inquiryDate
    * @return bool $result
    */
-  public static function createInquiry($inquiryData)
+  public static function createInquiry(array $inquiryData)
   {
     $result = false;
 
@@ -27,7 +27,6 @@ class InquiryLogic
       return $result;
     } catch(\Exception $e) {
       echo $e;
-      error_log($error, 3, '../e.log');
       return $result;
     }
 
@@ -39,7 +38,7 @@ class InquiryLogic
    * @param array $inquiryData
    * @return bool $result
    */
-  public static function getInquiry($inquiryData)
+  public static function getInquiry(array $inquiryData)
   {
     $result = false;
 
